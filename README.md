@@ -1,51 +1,89 @@
-# ✅ CLI-based To-Do List (Python + Pandas)
+# ✅ CLI ToDo App
 
-A simple **Command Line Interface (CLI)** To-Do List built in Python using basic file handling and the pandas library. This project lets users manage tasks by adding new ones, marking them as done, or resetting the task list.
-
----
-
-## 📦 Features
-
-- 📋 Add multiple new tasks
-- ✔️ Mark tasks as done
-- 🔁 Reset the entire list
-- 💾 Tasks are stored persistently across sessions using `todo.txt` and `done.txt`
-- 📊 Uses `pandas` to display tasks in a clean table
+A simple and effective **Command-Line Interface (CLI)** based **To-Do List Manager** written in Python.  
+Organize your tasks, mark them as done, and keep your productivity on track — all from your terminal! 💻
 
 ---
 
-## 🧰 Requirements
+## 🚀 Features
 
-- Python 3.x
-- pandas (`pip install pandas`)
-- Jupyter Notebook (`pip install notebook`)
+- 📝 Add tasks to your ToDo list
+- 📋 View current tasks
+- ✅ Mark tasks as done
+- 🧹 Clear the entire list
+- 💾 Persistent storage using local `.txt` files
 
 ---
 
-## 🚀 Usage
+## 📸 Demo
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Sachin0P/CLi-based-to-do-list.git
-   cd CLi-based-to-do-list
+```
+Welcome to CLI ToDo
+what shall we do
+1.View the list
+2.Add tasks to the list
+3.Check a task as done
+4.Clear the whole list
+```
 
-  Start Jupyter Notebook:
+---
 
-    jupyter notebook
+## 🛠 How It Works
 
-In the browser window that opens, click on cli_to_do.ipynb to launch the notebook interface. Run the cells one by one using Shift+Enter.
+This app maintains two simple text files:
 
-When prompted with:
+- `todo.txt` ➜ Keeps track of your current tasks
+- `done.txt` ➜ Stores completed tasks
 
-What would you like to do today?
-1. Enter a new task
-2. Tick a task
-3. Reset the list
+The logic is easy to follow — no external libraries required!
 
-Enter:
+---
 
-    1 to add new tasks (you will be asked how many and then for the names)
+## 📦 Setup & Usage
 
-    2 to tick a task (the list will be shown with indexes; enter the index to mark it done)
+### 1. Clone the repo
 
-    3 to reset both task and done lists (this clears todo.txt and done.txt)
+```bash
+git clone https://github.com/your-username/cli-todo.git
+cd cli-todo
+```
+
+### 2. Run the app
+
+```bash
+python "cli todo ver 2.py"
+```
+
+---
+
+## 🤖 Example Use Cases
+
+- Quick task capturing while coding
+- Terminal-based personal reminders
+- Offline productivity tool
+
+---
+
+## 🧠 Future Improvements
+
+- Add timestamp to tasks 🕒  
+- Sort tasks by priority 🔺  
+- Delete individual tasks ❌  
+- Export to CSV or JSON 🗂️  
+
+---
+
+## 👨‍💻 Author
+
+**[Sachin Prakash](https://github.com/Sachin0P)**  
+Built with ❤️ and Python 🐍
+
+---
+
+## 📃 License
+
+This project is licensed under the MIT License.
+
+---
+
+> "Small habits make big changes — start with your ToDo list." 🧘
